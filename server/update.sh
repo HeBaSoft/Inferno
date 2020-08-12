@@ -1,0 +1,1 @@
+mono ./packsly/Packsly3.Cli.exe lifecycle Inferno prelaunch

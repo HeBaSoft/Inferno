@@ -1,0 +1,1 @@
+/usr/bin/backup.sh -c -w tmux -s minecraft -i /root/minecraft/inferno -o /root/backups
