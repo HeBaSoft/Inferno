@@ -1,0 +1,188 @@
+{
+	"name": "Inferno",
+	"minecraft": "1.16.1",
+	"icon": "http://inferno.filipsi.net/modpack/fire.png",
+	"adapters": {
+		"core.updater.revision": {
+			"url": "http://inferno.filipsi.net/modpack/manifest.json",
+			"revision": 11
+		}
+	},
+	"modloader": {
+		"forge": "32.0.75"
+	},
+	"environment": {
+		"multimc": {
+			"minMemoryAllocation": 3072,
+			"maxMemoryAllocation": 8192,
+			"javaArguments": "-XX:+DisableExplicitGC -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+UseNUMA -XX:+CMSParallelRemarkEnabled -XX:MaxTenuringThreshold=15 -XX:MaxGCPauseMillis=30 -XX:GCPauseIntervalMillis=150 -XX:+UseAdaptiveGCBoundary -XX:-UseGCOverheadLimit -XX:+UseBiasedLocking -XX:SurvivorRatio=8 -XX:TargetSurvivorRatio=90 -XX:MaxTenuringThreshold=15 -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -XX:+UseFastAccessorMethods -XX:+UseCompressedOops -XX:+OptimizeStringConcat -XX:+AggressiveOpts -XX:ReservedCodeCacheSize=2048m -XX:+UseCodeCacheFlushing -XX:SoftRefLRUPolicyMSPerMB=2000 -XX:ParallelGCThreads=10"
+		}
+	},
+	"mods": [
+		{
+			"url": "https://media.forgecdn.net/files/2995/910/jei-1.16.1-7.0.0.6.jar",
+			"filename": "jei-1.16.1-7.0.0.6.jar"
+		},
+		{
+			"url": "https://media.forgecdn.net/files/3012/831/JustEnoughResources-1.16.1-0.11.0.81.jar",
+			"filename": "justenoughresources-1.16.1-0.11.0.81.jar"
+		},
+		{
+			"url": "https://media.forgecdn.net/files/3008/132/DefaultOptions_1.16.1-12.0.1.jar",
+			"filename": "defaultoptions-1.16.1-12.0.1.jar",
+			"resources": [
+				{
+					"url": "http://inferno.filipsi.net/modpack/config/defaultoptions/keybindings.txt",
+					"path": "{configFolder}/defaultoptions"
+				},
+				{
+					"url": "http://inferno.filipsi.net/modpack/config/defaultoptions/options.txt",
+					"path": "{configFolder}/defaultoptions"
+				},
+				{
+					"url": "http://inferno.filipsi.net/modpack/config/defaultoptions/servers.dat",
+					"path": "{configFolder}/defaultoptions"
+				}
+			]
+		},
+		{
+			"url": "https://media.forgecdn.net/files/3007/476/Morpheus-1.16.1-4.2.55.jar",
+			"filename": "morpheus-1.16.1-4.2.55.jar"
+		},
+		{
+			"url": "https://media.forgecdn.net/files/2999/632/Placebo-1.16.1-4.0.1.jar",
+			"filename": "placebo-1.16.1-4.0.1.jar"
+		},
+		{
+			"url": "https://media.forgecdn.net/files/2999/650/ToastControl-1.16.1-4.0.0.jar",
+			"filename": "toastcontrol-1.16.1-4.0.0.jar",
+			"resources": [
+				{
+					"url": "http://inferno.filipsi.net/modpack/config/toastcontrol-common.toml",
+					"path": "{configFolder}"
+				}
+			]
+		},
+		{
+			"url": "https://media.forgecdn.net/files/3003/117/FastWorkbench-1.16.1-4.1.1.jar",
+			"filename": "fastworkbench-1.16.1-4.1.1.jar"
+		},
+		{
+			"url": "https://media.forgecdn.net/files/2999/552/FastFurnace-1.16.1-4.0.0.jar",
+			"filename": "fastfurnace-1.16.1-4.0.0.jar"
+		},
+		{
+			"url": "https://media.forgecdn.net/files/3001/820/BetterBurning-1.16.1-2.0.2.jar",
+			"filename": "betterburning-1.16.1-2.0.2.jar"
+		},
+		{
+			"url": "https://media.forgecdn.net/files/2989/354/MouseTweaks-2.13-mc1.16.1.jar",
+			"filename": "mousetweaks-1.16.1-2.13.jar"
+		},
+		{
+			"url": "https://media.forgecdn.net/files/2997/288/AppleSkin-mc1.16.1-forge-1.0.14.jar",
+			"filename": "appleskin-1.16.1-1.0.14.jar"
+		},
+		{
+			"url": "https://media.forgecdn.net/files/2990/190/FastLeafDecay-v23.jar",
+			"filename": "fastleafdecay-1.16.1-23.jar"
+		},
+		{
+			"url": "https://media.forgecdn.net/files/2988/953/CTM-MC1.16.1-1.1.0.1.jar",
+			"filename": "ctm-1.16.1-1.1.0.1.jar"
+		},
+		{
+			"url": "https://media.forgecdn.net/files/3010/108/gravestone-1.16.1-1.0.5.jar",
+			"filename": "gravestone-1.16.1-1.0.5.jar",
+			"resources": [
+				{
+					"url": "http://inferno.filipsi.net/modpack/config/gravestone-client.toml",
+					"path": "{configFolder}"
+				}
+			]
+		},
+		{
+			"url": "https://media.forgecdn.net/files/3011/16/curios-FORGE-1.16.1-3.0.jar",
+			"filename": "curios-1.16.1-3.0.jar"
+		},
+		{
+			"url": "https://media.forgecdn.net/files/2994/182/curioofundying-FORGE-1.16.1-4.0.jar",
+			"filename": "curioofundying-1.16.1-4.0.jar"
+		},
+		{
+			"url": "https://media.forgecdn.net/files/2994/180/curiousshulkerboxes-FORGE-1.16.1-3.0.jar",
+			"filename": "curiousshulkerboxes-1.16.1-3.0.jar"
+		},
+		{
+			"url": "https://media.forgecdn.net/files/2995/136/caelus-FORGE-1.16.1-2.0-beta4.jar",
+			"filename": "caelus-1.16.1-2.0-beta4.jar"
+		},
+		{
+			"url": "https://media.forgecdn.net/files/2995/140/curiouselytra-FORGE-1.16.1-3.0.jar",
+			"filename": "curiouselytra-1.16.1-3.0.jar"
+		},
+		{
+			"url": "https://media.forgecdn.net/files/3012/271/BiomesOPlenty-1.16.1-11.0.0.390-universal.jar",
+			"filename": "biomesoplenty-1.16.1-11.0.0.390.jar"
+		},
+		{
+			"url": "https://media.forgecdn.net/files/3006/530/Waystones_1.16.1-7.0.2.jar",
+			"filename": "waystones-1.16.1-7.0.2.jar",
+			"resources": [
+				{
+					"url": "http://inferno.filipsi.net/modpack/config/waystones-client.toml",
+					"path": "{configFolder}"
+				},
+				{
+					"url": "http://inferno.filipsi.net/modpack/config/waystones-common.toml",
+					"path": "{configFolder}"
+				},
+				{
+					"url": "http://inferno.filipsi.net/modpack/config/waystones-server.toml",
+					"path": "{configFolder}"
+				}
+			]
+		},
+		{
+			"url": "https://media.forgecdn.net/files/3006/47/Patchouli-1.16-39.jar",
+			"filename": "patchouli-1.16.1-39.jar"
+		},
+		{
+			"url": "https://media.forgecdn.net/files/3011/755/AutoRegLib-1.6-42.jar",
+			"filename": "autoreglib-1.6.1-42.jar"
+		},
+		{
+			"url": "http://inferno.filipsi.net/modpack/betas/Botania-1.16-395.jar",
+			"filename": "botania-1.16.1-395.jar",
+			"resources": [
+				{
+					"url": "http://inferno.filipsi.net/modpack/config/botania-common.toml",
+					"path": "{configFolder}"
+				}
+			]
+		},
+		{
+			"url": "https://media.forgecdn.net/files/3012/485/Quark-r2.2-255.jar",
+			"filename": "quark-1.16.1-r2.2-255.jar",
+			"resources": [
+				{
+					"url": "http://inferno.filipsi.net/modpack/config/quark-common.toml",
+					"path": "{configFolder}"
+				}
+			]
+		},
+		{
+			"url": "https://media.forgecdn.net/files/3008/326/ImmersiveEngineering-0.16-109.jar",
+			"filename": "immersiveengineering-1.16.1-109.jar"
+		},
+		{
+			"url": "https://media.forgecdn.net/files/3014/272/cc-tweaked-1.16.1-1.90.2.jar",
+			"filename": "cc-tweaked-1.16.1-1.90.2.jar"
+		},
+		{
+			"url": "https://media.forgecdn.net/files/3007/496/refinedstorage-1.9.2.jar",
+			"filename": "refinedstorage-1.16.1-1.9.2.jar"
+		}
+	]
+}
+
