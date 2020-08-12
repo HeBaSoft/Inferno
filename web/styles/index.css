@@ -1,0 +1,106 @@
+@font-face {
+	font-family: 'Minecraft';
+	src: url('../fonts/mcfont.ttf') format('truetype');
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100vw;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	background-color: #2C3E50;
+	background-image: url("../assets/background.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center center;
+	overflow-x: hidden;
+}
+
+.content {
+	display: flex;
+	width: 980px;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: white;
+	border-left: 1px solid #ecf0f1;
+	border-right: 1px solid #ecf0f1;
+	box-shadow: 2px 0 2px 0px #ecf0f1cc, -2px 0 2px 0px #ecf0f1cc;
+}
+
+.content > .markdown {
+	width: 100%;
+}
+
+.markdown {
+	box-sizing: border-box;
+	min-width: 200px;
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 45px;
+}
+
+@media (max-width: 767px) {
+	.markdown-body {
+		padding: 15px;
+	}
+}
+
+.footer {
+    width: 100%;
+}
+
+.download {
+	margin-bottom: 3rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.button {
+	display: block;
+	height: 40px;
+	width: 400px;
+	outline: 2px solid black;
+	position: relative;
+	background-image: url('../assets/button_center.png');
+	background-repeat: repeat;
+	padding: 0;
+	font-family: Minecraft;
+	text-align: center;
+	color: white;
+	text-shadow: 3px 3px #4C4C4C;
+	border-bottom: 4px solid #565656;
+	border-right: 2px solid #565656;
+	border-left: 2px solid #AAA;
+	border-top: 2px solid #AAA;
+	box-sizing: border-box;
+	font-size: 16px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.button span {
+	position: relative;
+	line-height: 40px;
+	bottom: 3px;
+	user-select: none;
+}
+
+.button:hover {
+	border-bottom: 4px solid #59639A;
+	border-right: 2px solid #59639A;
+	border-left: 2px solid #BDC6FF;
+	border-top: 2px solid #BDC6FF;
+	background-image: url('../assets/button_active_center.png');
+	color: #FFFFA0;
+}
